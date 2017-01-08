@@ -39,16 +39,8 @@
 
 $d100 = int(rand(100)) + 1;
 
-#print $frog = @effects;
-#print $frog = @rank;
-#print $frog = @whiteEffects;
-#print $frog = @yellowEffects;
-#print $frog = @greenEffects;
-#print $frog = @redEffects;
-#print $frog = @universaltable;
-
 print " \n";
-#print $d100;
+
 print "CHOOSE EFFECT \n";
 
 $counteffect = 0;
@@ -94,13 +86,12 @@ $colorResult = $whiteEffects[$chosenEffect];
 
 foreach $column (@universaltable)
 {
-  #print "$column $rank[$chosenRank]\n";
+  
   if ($column =~m/$rank[$chosenRank]/)
   {
     #found rank column
     @column = split(/,/, $column);
-    $frog = @column;
-    #print "$frog\n";
+        
     $columnRank = $column[0];
     $columnWhite = $column[1];
     $columnGreen = $column[2];
