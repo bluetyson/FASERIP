@@ -5,11 +5,11 @@
 
 @effects = ( "None", "Blunt Attack", "Edged Attack", "Shooting Attack",						"Throwing Edged", "Throwing Blunt", "Energy", "Force", "Grappling", "Grabbing", "Escaping", "Charging", "Dodging", "Evading", "Blocking", "Catching", "Stun?", "Slam?", "Kill?" );
 						
-@rank = ( "", "SH0", "FB", "PR", "TY", "GD", "EX", "RM", "IN", "AM",	"MN", "UN", "SHX", "SHY", "SHZ", "CL1000", "CL3000","CL5000", "Beyond");
+@rank = ( "", "SH0", "FB", "PR", "TY", "GD", "EX", "RM", "IN", "AM", "MN", "UN", "SHX", "SHY", "SHZ", "CL1000", "CL3000","CL5000", "Beyond");
 
-@whiteEffects = ( "WHITE", "MISS", "MISS", "MISS", "MISS", "MISS", "MISS",			"MISS", "MISS", "MISS", "MISS", "MISS", "NONE",	"AUTOHIT", "-6 CS", "AUTOHIT", "1-10", "GRAND SLAM","ENDURANCE LOSS" );
+@whiteEffects = ( "WHITE", "MISS", "MISS", "MISS", "MISS", "MISS", "MISS", "MISS", "MISS", "MISS", "MISS", "MISS", "NONE", "AUTOHIT", "-6 CS", "AUTOHIT", "1-10", "GRAND SLAM","ENDURANCE LOSS" );
 						
-@greenEffects = ( "GREEN", "HIT", "HIT", "HIT", "HIT", "HIT", "HIT", "HIT",	"MISS", "TAKE", "MISS", "HIT", "-2 CS", "EVASION", "-4 CS", "MISS", "1", "1 AREA", "E/S (EDGED/SHOOTING)" );
+@greenEffects = ( "GREEN", "HIT", "HIT", "HIT", "HIT", "HIT", "HIT", "HIT", "MISS", "TAKE", "MISS", "HIT", "-2 CS", "EVASION", "-4 CS", "MISS", "1", "1 AREA", "E/S (EDGED/SHOOTING)" );
 
 @yellowEffects = ( "YELLOW", "SLAM", "STUN", "BULLSEYE", "STUN", "HIT",	"BULLSEYE", "BULLSEYE", "Partial", "GRAB", "ESCAPE", "SLAM", "-4 CS", "+1 CS", "-2 CS", "DAMAGE", "NO",	"STAGGER", "NO" );
 
