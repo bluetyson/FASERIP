@@ -46,9 +46,10 @@ print "CHOOSE EFFECT \n";
 $counteffect = 0;
 foreach $effect (@effects)
 {
-  print "$counteffect : $effect\n";
+  print "$counteffect: $effect  ";
   $counteffect++;
 }
+print "\n";
 
 $chosenEffect = <STDIN>;
 chomp($chosenEffect);
@@ -66,9 +67,10 @@ print "CHOOSE RANK \n";
 $countrank = 0;
 foreach $rank (@rank)
 {
-  print "$countrank : $rank\n";
+  print "$countrank: $rank  ";
   $countrank++;
 }
+print "\n";
 
 $chosenRank = <STDIN>;
 chomp($chosenRank);
@@ -79,7 +81,7 @@ while ( $chosenRank =~m/[^0-9]/ || $chosenRank > 18)
   chomp($chosenRank);
 }
 
-print "Rank = $rank[$chosenRank] - $effects[$chosenEffect]\n\n";
+print "Rank = $rank[$chosenRank] - $effects[$chosenEffect] - ";
 
 $d100Result = "WHITE";
 $colorResult = $whiteEffects[$chosenEffect];
